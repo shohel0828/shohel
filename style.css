@@ -1,0 +1,113 @@
+.header {
+   box-sizing: border-box;
+  display: flex;
+    background-color: aqua;
+}
+.logos .logo {
+    width: 250px;
+    height: 200px;
+
+}
+ul {
+    display: flex;
+    margin-top: 100px;
+}
+li a {
+    text-decoration: none;
+    padding: 5px;
+}
+li {
+    list-style: none;
+}
+.inter a {
+    text-decoration: none;
+    padding: 5px; 
+    border: 2px solid black; 
+    border-radius: 30px;
+}
+.inter {
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.inter a:hover {
+    color: red;
+    background-color: black;
+}
+.banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+}
+.color {
+    color: red;
+}
+.see {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+}
+ a:hover {
+    color: gold;
+    background-color: black;
+}
+
+.do {
+    margin-right: 90px;
+    padding: 5px;
+   
+    
+}
+h1, h2 {
+    text-align: center;
+}
+.product {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.seen {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+.bag {
+    width: 190px;
+    height: 150px;
+    transition: 0.3s;
+}
+.products {
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+   
+}
+.bag:hover {
+    transform: scale(1.2);
+}
+h4 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+.beg {
+  width: 90px;
+  height: 80px;
+  transition: 0.3s;
+}
+.foo {
+    margin-left: 350px;
+}
+.foot {
+    background-color: black;
+}
+.beg:hover {
+    transform: scale(1.2);
+}
